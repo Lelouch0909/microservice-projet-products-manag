@@ -1,0 +1,7 @@
+package com.lontsi.productservice.repository;
+
+import com.lontsi.productservice.model.Product;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface ProductRepository  extends MongoRepository<Product, String> {
+}
